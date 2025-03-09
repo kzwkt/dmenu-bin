@@ -1,4 +1,4 @@
-name: Build st in Debian Stable Container
+name: Build instantmenu in Debian Stable Container
 
 on:
   push:
