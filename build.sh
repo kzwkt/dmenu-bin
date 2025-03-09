@@ -1,7 +1,7 @@
 apt update -y
-apt install -y libx11-dev libxft-dev libxext-dev libharfbuzz-dev zip git gcc make 
-git clone --depth=1 https://github.com/instantOS/st-instantos
-cd st-instantos
+apt install -y libx11-dev libxft-dev libxext-dev libxinerama-dev  zip git gcc make 
+git clone --depth=1 https://github.com/instantOS/instantMENU
+cd instantMENU
 make
-make DESTDIR="./stpkg" install
-zip -r stpkg.zip stpkg
+make DESTDIR="./dmpkg" install
+zip -r dmpkg.zip dmpkg
